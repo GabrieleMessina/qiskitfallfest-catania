@@ -22,3 +22,4 @@ To start the development server, run:
 ```bash
 npm run dev
 ```
+> Note: the root of the web page is `cataniaqiskitfallfest` so, if you server is running at `http://localhost:8080` you need to navigate to `http://localhost:8080/cataniaqiskitfallfest`
