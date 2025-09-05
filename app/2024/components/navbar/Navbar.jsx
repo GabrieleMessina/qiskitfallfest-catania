@@ -89,7 +89,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center md:min-h-[50px] md:mx-10" style={{userSelect: 'none'}}>
         <div className="text-lg md:text-3xl font-semibold">
-          <Link href={'/'}><span className={`${isScrolled ? 'text-black' : 'text-white'}`}>Qiskit Fall Fest 2025 </span></Link>
+          <Link href={'/'}><span className={`${isScrolled ? 'text-black' : 'text-white'}`}>Qiskit Fall Fest 2024 </span></Link>
           <span className="text-[#FF7EB5] mx-2">/</span>
           <span className="text-[#9D5CFD]">Catania</span>
         </div>
@@ -133,9 +133,6 @@ const Navbar = () => {
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>
                 </li>
-                <li className={getLinkClass('./2024')}>
-                  <a href="./2024" onClick={handleLinkClick}>2024 Edition</a>
-                </li>
               </ul>
             )}
           </li>
@@ -178,9 +175,6 @@ const Navbar = () => {
                 </li>
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>
-                </li>
-                <li className={getLinkClass('./2024')}>
-                  <a href="./2024" onClick={handleLinkClick}>2024 Edition</a>
                 </li>
               </ul>
             )}
