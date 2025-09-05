@@ -1,4 +1,4 @@
-# Catania Qiskit Fall Fest 2024
+# Catania Qiskit Fall Fest
 
 Welcome to the Catania Qiskit Fall Fest website! This site provides information about the upcoming Qiskit Fall Fest event in Catania. Get ready to dive into the world of quantum computing with us!
 
@@ -12,8 +12,8 @@ The Catania Qiskit Fall Fest website is designed to provide attendees with all t
 To run this project locally, follow these steps:
 
 ```bash
-git clone https://github.com/cataniaqiskitfallfest2024/qiskitfallfest2024-catania.git
-cd qiskitfallfest2024-catania
+git clone https://github.com/GabrieleMessina/qiskitfallfest-catania.git
+cd qiskitfallfest-catania
 npm install
 ```
 
