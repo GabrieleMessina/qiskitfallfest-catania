@@ -9,21 +9,21 @@ const Sponsors = () => {
         {/* <div id="digitizers" className="flex flex-col gap-2 w-full sm:w-[45%] md:w-[25%] m-5">
           <img 
             className="h-[100px] sm:h-[130px] md:h-[150px] object-contain mix-blend-multiply"
-            src="./assets/img/sponsor/digitizers_horizontal.svg"
+            src="/cataniaqiskitfallfest/assets/img/sponsor/digitizers_horizontal.svg"
             alt="Digitizers Logo"
           />
         </div>
         <div id="steve-jobs" className="flex flex-col w-full sm:w-[45%] md:w-[25%] m-5">
           <img 
             className="h-[100px] sm:h-[130px] md:h-[150px] object-contain mix-blend-multiply"
-            src="./assets/img/sponsor/steve_jobs_horizontal.jpg"
+            src="/cataniaqiskitfallfest/assets/img/sponsor/steve_jobs_horizontal.jpg"
             alt="Fondazione Istituto Tecnico Superiore Steve Jobs Logo"
           />
         </div>
         <div id="hig" className="flex flex-col w-full sm:w-[45%] md:w-[25%] m-5">
           <img 
             className="h-[100px] sm:h-[130px] md:h-[150px] object-contain mix-blend-multiply"
-            src="./assets/img/sponsor/hig_horizontal.svg"
+            src="/cataniaqiskitfallfest/assets/img/sponsor/hig_horizontal.svg"
             alt="Harmonic Innovation Group Logo"
           />
         </div>*/}
@@ -32,14 +32,14 @@ const Sponsors = () => {
         {/* <div id="nqsti" className="flex flex-col gap-2 w-full sm:w-[45%] md:w-[25%] m-5">
           <img 
             className="h-[100px] sm:h-[130px] md:h-[150px] object-contain mix-blend-multiply"
-            src="./assets/img/sponsor/nqsti.png"
+            src="/cataniaqiskitfallfest/assets/img/sponsor/nqsti.png"
             alt="nqsti Logo"
           />
         </div> */}
         {/* <div id="icsc" className="flex flex-col w-full sm:w-[45%] md:w-[25%] m-5">
           <img 
             className="h-[100px] sm:h-[130px] md:h-[150px] object-contain mix-blend-multiply"
-            src="./assets/img/sponsor/icsc.png"
+            src="/cataniaqiskitfallfest/assets/img/sponsor/icsc.png"
             alt="icsc Logo"
           />
         </div> */}

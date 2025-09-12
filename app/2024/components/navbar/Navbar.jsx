@@ -108,7 +108,7 @@ const Navbar = () => {
 
         <ul className="hidden md:flex flex-row items-center gap-10 text-lg">
           <li className={getLinkClass('#about')}>
-            <a href="#about" onClick={() => handleSectionClick('#about')}>About</a>
+            <a href="#about">About</a>
           </li>
           <li
             className={`relative ${['#partners', '#speakers', '#location', '#organizers'].includes(activeLink) ? 'active text-white' : 'text-gray-400'}`}
@@ -119,25 +119,25 @@ const Navbar = () => {
             {isDropdownOpen && (
               <ul className="absolute left-0 mt-2 w-40 bg-black text-white shadow-lg rounded">
                 <li className={getLinkClass('#partners')}>
-                  <a href="#partners" onClick={() => handleSectionClick('#partners')}>Partners</a>
+                  <a href="#partners">Partners</a>
                 </li>
                 <li className={getLinkClass('#speakers')}>
-                  <a href="#speakers" onClick={() => handleSectionClick('#speakers')}>Speakers</a>
+                  <a href="#speakers">Speakers</a>
                 </li>
                 <li className={getLinkClass('#location')}>
-                  <a href="#location" onClick={() => handleSectionClick('#location')}>Location</a>
+                  <a href="#location">Location</a>
                 </li>
                 <li className={getLinkClass('#sponsors')}>
-                  <a href="#sponsors" onClick={() => handleSectionClick('#sponsors')}>Sponsors</a>
+                  <a href="#sponsors">Sponsors</a>
                 </li>
                 <li className={getLinkClass('#organizers')}>
-                  <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>
+                  <a href="#organizers">Organizers</a>
                 </li>
               </ul>
             )}
           </li>
           <li className={getLinkClass('#schedule')}>
-            <a href="#schedule" onClick={() => handleSectionClick('#schedule')}>Schedule</a>
+            <a href="#schedule">Schedule</a>
           </li>
           <li className={getLinkClass('/faq')}>
             <Link href="/faq" onClick={handleLinkClick}>FAQ</Link>
@@ -151,7 +151,7 @@ const Navbar = () => {
       {isOpen && (
         <ul className="absolute top-full left-0 w-full bg-black text-white flex flex-col items-center gap-4 text-lg py-4">
           <li className={getLinkClass('#about')}>
-            <a href="#about" onClick={() => handleSectionClick('#about')}>About</a>
+            <a href="#about">About</a>
           </li>
           <li
             className={`relative ${['#partners', '#speakers', '#location', '#organizers'].includes(activeLink) ? 'active text-white' : 'text-gray-400'}`}
@@ -162,25 +162,25 @@ const Navbar = () => {
             {isDropdownOpen && (
               <ul className="absolute left-0 mt-2 w-40 bg-black text-white shadow-lg rounded">
                 <li className={getLinkClass('#partners')}>
-                  <a href="#partners" onClick={() => handleSectionClick('#partners')}>Partners</a>
+                  <a href="#partners">Partners</a>
                 </li>
                 <li className={getLinkClass('#speakers')}>
-                  <a href="#speakers" onClick={() => handleSectionClick('#speakers')}>Speakers</a>
+                  <a href="#speakers">Speakers</a>
                 </li>
                 <li className={getLinkClass('#location')}>
-                  <a href="#location" onClick={() => handleSectionClick('#location')}>Location</a>
+                  <a href="#location">Location</a>
                 </li>
                 <li className={getLinkClass('#sponsors')}>
-                  <a href="#sponsors" onClick={() => handleSectionClick('#sponsors')}>Sponsors</a>
+                  <a href="#sponsors">Sponsors</a>
                 </li>
                 <li className={getLinkClass('#organizers')}>
-                  <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>
+                  <a href="#organizers">Organizers</a>
                 </li>
               </ul>
             )}
           </li>
           <li className={getLinkClass('#schedule')}>
-            <a href="#schedule" onClick={() => handleSectionClick('#schedule')}>Schedule</a>
+            <a href="#schedule">Schedule</a>
           </li>
           <li className={getLinkClass('/faq')}>
             <Link href="/faq">FAQ</Link>
