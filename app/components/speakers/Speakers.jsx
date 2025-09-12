@@ -36,7 +36,7 @@ const Speakers = () => {
 
                     </CardActions>
                 </Card>
-                <Card sx={{ maxWidth: 200, minHeight: 400, bgcolor: 'white', boxShadow: 'none' }} align='center'>
+                {/* <Card sx={{ maxWidth: 200, minHeight: 400, bgcolor: 'white', boxShadow: 'none' }} align='center'>
                     <CardMedia
                         component="img"
                         alt="Elisabetta Paladino"
@@ -92,7 +92,7 @@ const Speakers = () => {
                     <CardActions sx={{ justifyContent: "center" }}>
 
                     </CardActions>
-                </Card>
+                </Card> */}
             </div>
         </section>
     )

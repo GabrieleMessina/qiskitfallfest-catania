@@ -12,20 +12,12 @@ const About = () => {
     <div className="flex flex-col justify-center md:m-10 p-4">
       <h1 className="text-6xl font-bold text-center text-[#353A3F]">About</h1>
       <div className="m-3 md:mx-48">
-        <span className='font-bold'>Welcome to the Qiskit Fall Fest 2024 / Catania</span>
-        <div>We are thrilled to invite you to the most exciting global event about quantum computing promoted by IBM Quantum and the Qiskit community: the Qiskit Fall Fest!</div>
+        <div className='text-center'>The University of Catania is proud to host the <strong>Qiskit Fall Fest</strong> for the second year in a row <br/> this time as one of only <strong>55 Sponsored Events worldwide</strong>!</div>
         <div className="relative p-6 italic text-gray-600 border-l-4 border-[#FF7EB5] bg-gray-50 my-4">
-          The Qiskit Fall Fest is a collection of quantum computing events on college campuses around the world. Every Fall Fest event is organized and run by the students on each campus, with support from IBM Quantum. Student leaders work alongside IBM to design and plan their event, which are run in October and November. Each event is standalone - only made for the students on that particular campus. The events vary from technical hackathons to beginner-friendly challenges, all with the goal of helping to grow the local community's skill set.
-          qiskit.org
-          This year a Qiskit Fall Fest event will be held also in Catania and it will be hosted by the Università degli Studi di Catania, Italy
+          The Qiskit Fall Fest is a global celebration of quantum computing, promoted by <b>IBM Quantum</b> and the <b>Qiskit community</b>. Every year, student-led events take place on campuses across the world, with formats ranging from beginner-friendly workshops to advanced hackathons. These events are designed to strengthen local communities, foster collaboration, and grow the next generation of quantum innovators.
         </div>
-        <p>
-          The Qiskit Fall Fest is a celebration of quantum technology, research, and collaboration, bringing together quantum enthusiasts, researchers, students, and professionals from around the world. Whether you’re a quantum expert or just starting your journey into the quantum realm, this event is designed for you.
-        </p>
-        <div>
-          <p>
-            We are looking forward to seeing you at the event!
-          </p>
+        <div className='text-center'>
+          Whether you are a curious newcomer or an experienced quantum enthusiast, the Qiskit Fall Fest in Catania will be the place to learn, build, and connect. Together, we'll explore the cutting edge of quantum technology and shape the future of computation.
         </div>
         <div id="about-buttons" className="flex flex-wrap justify-evenly gap-5 mt-5">
         {/* Pulsante Info */}
@@ -71,13 +63,13 @@ const About = () => {
 
         <div className='flex justify-center'>
             <div id='register button' className=' bg-[#9D5CFD] hover:bg-[#924afc] text-white rounded text-center text-2xl font-bold mt-5 flex justify-center lg:w-[40%] w-[80%] p-5'>
-                <button> <Link href={'https://www.eventbrite.com/e/catania-qiskit-fall-fest-tickets-1029219452087'}>Register here to partecipate!</Link>
+                <button> <Link target='blank' href={'https://cataniaqiskitfallfest25.eventbrite.com'}>Register here to partecipate!</Link>
                 </button>
             </div>
         </div>
         <div className='flex justify-center'>
             <div id='register button' className='border border-[#9D5CFD] hover:bg-[#924afc11] rounded text-center text-2xl font-bold mt-5 flex justify-center lg:w-[40%] w-[80%] p-5'>
-                <button> <Link href="https://drive.google.com/drive/folders/1uwq9MkZXUuarttT0X__EpoQCIavHdpjC?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
+                <button> <Link target='blank' href="https://drive.google.com/drive/folders/1itnr71b5UM-kfzWkwSFmcWtY5W8BJxhH?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
                 </button>
             </div>
         </div>

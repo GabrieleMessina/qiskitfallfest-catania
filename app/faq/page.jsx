@@ -25,7 +25,7 @@ export default function page() {
                                 How to register?
                             </AccordionSummary>
                             <AccordionDetails>
-                                The event is open to everyone, you can register <Link href={'https://www.eventbrite.com/e/catania-qiskit-fall-fest-tickets-1029219452087'} className='underline font-bold'>here.</Link>
+                                The event is open to everyone, you can register <Link target='blank' href={'https://cataniaqiskitfallfest25.eventbrite.com'} className='underline font-bold'>here.</Link>
                             </AccordionDetails>
                         </Accordion>
                         <Accordion >
@@ -61,7 +61,7 @@ export default function page() {
                             Will there be hands-on sessions?
                             </AccordionSummary>
                             <AccordionDetails>
-                                Yes, there will be 3 LAB sessions
+                                Yes, there will be 3 LAB sessions and a Hackathon, where you will be able to put into practice what you have learned during the theoretical lessons.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion >
@@ -73,7 +73,7 @@ export default function page() {
                              Will there be a Q&A session or a way to ask questions during the event?
                             </AccordionSummary>
                             <AccordionDetails>
-                            In-presence partecipants can ask questions during the Event at our Speakers.
+                            In-person attendees can ask questions directly to our speakers during the event.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion >
@@ -100,7 +100,7 @@ export default function page() {
                              How can I stay updated on event announcements and news?
                             </AccordionSummary>
                             <AccordionDetails>
-                           You can follow us on <Link href={'https://www.instagram.com/cataniaqiskitfallfest/'} className='underline font-bold'> IG </Link> and stay updated constantly
+                           You can follow us on <Link target='blank' href={'https://www.instagram.com/cataniaqiskitfallfest/'} className='underline font-bold'> IG </Link> and stay updated constantly
                             </AccordionDetails>
                         </Accordion>
                         <Accordion >

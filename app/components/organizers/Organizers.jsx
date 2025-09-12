@@ -33,7 +33,7 @@ const Organizers = () => {
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-                <Link href={'https://web.dmi.unict.it/docenti/caterina.viola'}>
+                <Link target='blank' href={'https://web.dmi.unict.it/docenti/caterina.viola'}>
                     <Button size="small"><WebSiteIcon className="text-[#9D5CFD]" >
                         </WebSiteIcon>
                     </Button>
@@ -57,12 +57,12 @@ const Organizers = () => {
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-                <Link href={'https://web.dmi.unict.it/docenti/giulia.piccitto'}>
+                <Link target='blank' href={'https://web.dmi.unict.it/docenti/giulia.piccitto'}>
                     <Button size="small"><WebSiteIcon className="text-[#9D5CFD]" >
                         </WebSiteIcon>
                     </Button>
                 </Link>
-                <Link href={'https://www.linkedin.com/in/giulia-piccitto-b54491b5/'}>
+                <Link target='blank' href={'https://www.linkedin.com/in/giulia-piccitto-b54491b5/'}>
                     <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
                         </LinkedInIcon>
                     </Button>
@@ -86,66 +86,12 @@ const Organizers = () => {
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-                <Link href={'https://www.linkedin.com/in/elenoire-scaletta-129667282/'}>
+                <Link target='blank' href={'https://www.linkedin.com/in/elenoire-scaletta-129667282/'}>
                     <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
                         </LinkedInIcon>
                     </Button>
                 </Link>
             </CardActions>
-        </Card>
-
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
-            <CardMedia
-                component="img"
-                alt="Miriana Russo"
-                image="/cataniaqiskitfallfest/assets/profilePic/miriana_russo.jpeg"
-                sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
-            />
-            <CardContent sx={{textAlign: "center", padding:'5px'}}>
-                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
-                    Miriana Russo
-                </Typography>
-                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                Master's Student in Computer Science @ University of Catania 
-                </Typography>
-            </CardContent>
-            <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-                <Link href={'https://www.linkedin.com/in/miriana-russo-07987a217/'}>
-                    <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
-                        </LinkedInIcon>
-                    </Button>
-                </Link>
-            </CardActions>
-        </Card>
-
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
-            <CardMedia
-                component="img"
-                alt="Mirko Russo"
-                image="/cataniaqiskitfallfest/assets/profilePic/mirko_russo.JPG"
-                sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
-            />
-            <CardContent sx={{textAlign: "center", padding:'5px'}}>
-                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
-                    Mirko Russo
-                </Typography>
-                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                 Master's Student in Computer Science @ University of Catania 
-                </Typography>
-            </CardContent>
-            <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-            <Link href={'https://www.linkedin.com/in/mirkorussodev/'}>
-                <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
-                    </LinkedInIcon>
-                </Button>
-            </Link>
-            <Link href={'https://github.com/MirkoRusso'}>
-                <Button size='small'>
-                    <GitHubIcon className="text-[#9D5CFD]" >
-                    </GitHubIcon>
-                </Button>
-            </Link>
-            </CardActions >
         </Card>
 
         <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
@@ -160,16 +106,16 @@ const Organizers = () => {
                     Gabriele Messina
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                 Master's Student in Computer Science @ University of Catania
+                 M.Sc. in Computer Science @ University of Catania
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-            <Link href={'https://www.linkedin.com/in/messina-gabriele/'}>
+            <Link target='blank' href={'https://www.linkedin.com/in/messina-gabriele/'}>
                 <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
                     </LinkedInIcon>
                 </Button>
             </Link>
-            <Link href={'https://github.com/GabrieleMessina'}>
+            <Link target='blank' href={'https://github.com/GabrieleMessina'}>
                 <Button size="small"><GitHubIcon className="text-[#9D5CFD]" >
                     </GitHubIcon>
                 </Button>
@@ -189,112 +135,22 @@ const Organizers = () => {
                 Marco Gionfriddo
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                Master's Student in Computer Science @ University of Catania
+                M.Sc. Student in Computer Science @ University of Catania
                 </Typography>
             </CardContent >
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-            <Link href={'https://www.linkedin.com/in/marco-gionfriddo-042183165/'}>
+            <Link target='blank' href={'https://www.linkedin.com/in/marco-gionfriddo-042183165/'}>
                 <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
                     </LinkedInIcon>
                 </Button>
             </Link>
-            <Link href={'https://www.instagram.com/marcoging/'}>
+            <Link target='blank' href={'https://www.instagram.com/marcoging/'}>
                 <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
                     </InstagramIcon>
                 </Button>
             </Link>
             </CardActions>
         </Card>
-
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
-            <CardMedia
-                component="img"
-                alt="Martin Gibilterra"
-                image="/cataniaqiskitfallfest/assets/profilePic/martin_gibilterra.jpg"
-                sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'top', borderRadius: "100%" }}
-            />
-            <CardContent sx={{textAlign: "center", padding:'5px'}}>
-                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
-                    Martin Gibilterra
-                </Typography>
-                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                Master's Student in Computer Science @ University of Catania
-                </Typography>
-            </CardContent>
-            <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-            <Link href={'https://www.linkedin.com/in/w8floosh/'}>
-                <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
-                    </LinkedInIcon>
-                </Button>
-            </Link>
-            <Link href={'https://www.instagram.com/w8floosh/'}>
-                <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
-                    </InstagramIcon>
-                </Button>
-            </Link>
-            </CardActions>
-        </Card>
-
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
-            <CardMedia
-                component="img"
-                alt="Antonio Scardace"
-                image="/cataniaqiskitfallfest/assets/profilePic/antonio_scardace.jpg"
-                sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
-            />
-            <CardContent sx={{textAlign: "center", padding:'5px'}}>
-                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
-                    Antonio Scardace
-                </Typography>
-                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                Master's Student in Computer Science @ University of Catania
-                </Typography>
-            </CardContent>
-            <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-            <Link href={'https://www.linkedin.com/in/antonio-scardace/'}>
-                <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
-                    </LinkedInIcon>
-                </Button>
-            </Link>
-            <Link href={' https://github.com/antonioscardace/   '}>
-                <Button size="small"><GitHubIcon className="text-[#9D5CFD]" >
-                    </GitHubIcon>
-                </Button>
-            </Link>
-            <Link href={'https://www.instagram.com/antonioscardace__/'}>
-                <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
-                    </InstagramIcon>
-                </Button>
-            </Link>
-            </CardActions>
-        </Card>
-
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
-            <CardMedia
-                component="img"
-                alt="Andrea Pricoco"
-                image="/cataniaqiskitfallfest/assets/profilePic/andrea_pricoco.jpeg"
-                sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
-            />
-            <CardContent sx={{textAlign: "center", padding:'5px'}}>
-                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
-                    Andrea Pricoco
-                </Typography>
-                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                B.Sc. Student in Computer Science @ University of Catania
-                </Typography>
-            </CardContent>
-            <CardActions sx={{justifyContent: "center", padding:'2px'}}>
-            <Link href={'https://www.instagram.com/andrea_pricoco/'}>
-                <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
-                    </InstagramIcon>
-                </Button>
-            </Link>
-            </CardActions>
-        </Card>
-
-
-
         </div>
     </section>
   )

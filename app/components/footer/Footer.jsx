@@ -26,15 +26,15 @@ const Footer = () => {
           </li>
         </ul>
         <p className="text-center text-white text-sm mt-4">
-          © 2024 Qiskit Fall Fest 2024 / Catania. All rights reserved.
+          © 2025 Qiskit Fall Fest 2025 / Catania. All rights reserved.
         </p>
         <div className='flex justify-center mt-2'>
-        <Link href={'https://github.com/cataniaqiskitfallfest2024/qiskitfallfest2024-catania'}>
+        <Link target='blank' href={'https://github.com/GabrieleMessina/qiskitfallfest-catania'}>
             <Button>
               <GitHubIcon className="text-[#9D5CFD]" /> 
             </Button>
         </Link>
-        <Link href={'https://www.instagram.com/cataniaqiskitfallfest/'}>
+        <Link target='blank' href={'https://www.instagram.com/cataniaqiskitfallfest/'}>
           <Button>
             <InstagramIcon className="text-[#9D5CFD]" />
           </Button>

@@ -146,7 +146,7 @@ const Navbar = () => {
             <Link href="/faq" onClick={handleLinkClick}>FAQ</Link>
           </li>
           <li className={getLinkClass('#resources')}>
-            <Link href="https://drive.google.com/drive/folders/1uwq9MkZXUuarttT0X__EpoQCIavHdpjC?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
+            <Link target='blank' href="https://drive.google.com/drive/folders/1itnr71b5UM-kfzWkwSFmcWtY5W8BJxhH?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
           </li>
         </ul>
       </div>
@@ -192,7 +192,7 @@ const Navbar = () => {
             <Link href="/faq">FAQ</Link>
           </li>
           <li className={getLinkClass('#resources')}>
-          <Link href="https://drive.google.com/drive/folders/1uwq9MkZXUuarttT0X__EpoQCIavHdpjC?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
+          <Link target='blank' href="https://drive.google.com/drive/folders/1itnr71b5UM-kfzWkwSFmcWtY5W8BJxhH?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
           </li>
         </ul>
       )}

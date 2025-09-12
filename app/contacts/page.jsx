@@ -20,7 +20,7 @@ const contacts = () => {
                             cataniaqiskitfallfest@unict.it
                         </span>
                         <button className="flex items-center bg-purple-600 hover:bg-[#9D5CFD] text-white font-bold py-2 px-4 rounded text-sm sm:text-base lg:text-lg">
-                            <Link href="https://www.instagram.com/cataniaqiskitfallfest/">
+                            <Link target='blank' href="https://www.instagram.com/cataniaqiskitfallfest/">
                                 <InstagramIcon className="mr-2" /> IG
                             </Link>
                         </button>

@@ -15,14 +15,12 @@ const contacts = () => {
                     <div>
                         <h2 className='font-bold  mt-5 text-2xl'>Web Development</h2>
                         <ul className="text-base sm:text-lg lg:text-xl italic list-disc px-4 ">
-                            <li className='hover:bg-white hover:text-black'>Mirko Russo</li>
                             <li className='hover:bg-white hover:text-black' >Gabriele Messina</li>
                         </ul>
                         <h2 className='font-bold mt-5 text-2xl'>Social Media Management & Communication</h2>
                         <ul className="text-base sm:text-lg lg:text-xl italic list-disc px-4">
                             <li className='hover:bg-white hover:text-black'>Marco Gionfriddo</li>
                             <li className='hover:bg-white hover:text-black'>Elenoire Scaletta</li>
-                            <li className='hover:bg-white hover:text-black'>Miriana Russo</li>
                         </ul>
                         <h2 className='font-bold mt-5 text-2xl '>Graphics</h2>
                         <ul className="text-base sm:text-lg lg:text-xl italic list-disc px-4">
@@ -31,7 +29,7 @@ const contacts = () => {
                         <h2 className='font-bold mt-5 text-2xl '>Third party contributions</h2>
                         <ul className="text-base sm:text-lg lg:text-xl italic list-disc px-4">
                             <li className='hover:bg-white hover:text-black'>This website is partly inspired / reuses contents from work done for the "Qiskit Fall Fest 2023 @ Palermo"
-                                <Link href={'https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io'} className="hover:underline text-[#9D5CFD] mt-5"> website </Link>
+                                <Link target='blank' href={'https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io'} className="hover:underline text-[#9D5CFD] mt-5"> website </Link>
                                 by Alberto Miserendino, Alessandro Catalano, Gabriele Lo Cascio, Roberto Battaglia, Giovanni La Tona. 
                             </li>
                         </ul>                        
