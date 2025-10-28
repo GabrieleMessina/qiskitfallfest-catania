@@ -106,7 +106,7 @@ const Organizers = () => {
                     Gabriele Messina
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                 M.Sc. in Computer Science @ University of Catania
+                Ph.D. Student in Computer Science @ University of Catania
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
@@ -145,6 +145,137 @@ const Organizers = () => {
                 </Button>
             </Link>
             <Link target='blank' href={'https://www.instagram.com/marcoging/'}>
+                <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
+                    </InstagramIcon>
+                </Button>
+            </Link>
+            </CardActions>
+        </Card>
+
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
+            <CardMedia
+                component="img"
+                alt="Antonino Fabio Coltraro"
+                image="/cataniaqiskitfallfest/assets/profilePic/antonino_fabio_coltraro.jpg"
+                sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
+            />
+            <CardContent sx={{textAlign: "center", padding:'5px'}}>
+                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
+                Antonino Coltraro
+                </Typography>
+                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
+                B.Sc. Student in Computer Science @ University of Catania
+                </Typography>
+            </CardContent >
+            <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
+            <Link target='blank' href={'https://www.linkedin.com/in/antonino-coltraro-b537622a2/'}>
+                <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
+                    </LinkedInIcon>
+                </Button>
+            </Link>
+            <Link target='blank' href={'https://github.com/GiveMeACent'}>
+                <Button size="small"><GitHubIcon className="text-[#9D5CFD]" >
+                    </GitHubIcon>
+                </Button>
+            </Link>
+            <Link target='blank' href={'https://www.instagram.com/anto_coltry/'}>
+                <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
+                    </InstagramIcon>
+                </Button>
+            </Link>
+            </CardActions>
+        </Card>
+
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
+            <CardMedia
+                component="img"
+                alt="Gabriela Riscica"
+                image="/cataniaqiskitfallfest/assets/profilePic/gabriela_riscica.jpg"
+                sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
+            />
+            <CardContent sx={{textAlign: "center", padding:'5px'}}>
+                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
+                Gabriela Riscica
+                </Typography>
+                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
+                M.Sc. Student in Computer Science @ University of Catania
+                </Typography>
+            </CardContent >
+            <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
+            <Link target='blank' href={'https://www.linkedin.com/in/gabriela-riscica/'}>
+                <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
+                    </LinkedInIcon>
+                </Button>
+            </Link>
+            <Link target='blank' href={'https://github.com/elakela'}>
+                <Button size="small"><GitHubIcon className="text-[#9D5CFD]" >
+                    </GitHubIcon>
+                </Button>
+            </Link>
+            </CardActions>
+        </Card>
+
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
+            <CardMedia
+                component="img"
+                alt="Damiano Trovato"
+                image="/cataniaqiskitfallfest/assets/profilePic/damiano_trovato.png"
+                sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
+            />
+            <CardContent sx={{textAlign: "center", padding:'5px'}}>
+                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
+                Damiano Trovato
+                </Typography>
+                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
+                B.Sc. Student in Computer Science @ University of Catania
+                </Typography>
+            </CardContent >
+            <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
+            <Link target='blank' href={'https://it.linkedin.com/in/damiano-trovato-1b0633316'}>
+                <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
+                    </LinkedInIcon>
+                </Button>
+            </Link>
+            <Link target='blank' href={'https://github.com/BoredDam'}>
+                <Button size="small"><GitHubIcon className="text-[#9D5CFD]" >
+                    </GitHubIcon>
+                </Button>
+            </Link>
+            <Link target='blank' href={'https://www.instagram.com/bored_dam_'}>
+                <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
+                    </InstagramIcon>
+                </Button>
+            </Link>
+            </CardActions>
+        </Card>
+
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
+            <CardMedia
+                component="img"
+                alt="Giuseppe Scordo"
+                image="/cataniaqiskitfallfest/assets/profilePic/giuseppe_scordo.jpg"
+                sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
+            />
+            <CardContent sx={{textAlign: "center", padding:'5px'}}>
+                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
+                Giuseppe Scordo
+                </Typography>
+                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
+                M.Sc. Student in Computer Science @ University of Catania
+                </Typography>
+            </CardContent >
+            <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
+            <Link target='blank' href={'https://www.linkedin.com/in/giuseppe-scordo-131034243'}>
+                <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
+                    </LinkedInIcon>
+                </Button>
+            </Link>
+            <Link target='blank' href={'https://github.com/Wikypippo'}>
+                <Button size="small"><GitHubIcon className="text-[#9D5CFD]" >
+                    </GitHubIcon>
+                </Button>
+            </Link>
+            <Link target='blank' href={'https://www.instagram.com/_wikypippo_'}>
                 <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
                     </InstagramIcon>
                 </Button>

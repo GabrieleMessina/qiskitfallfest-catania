@@ -36,6 +36,25 @@ const Speakers = () => {
 
                     </CardActions>
                 </Card>
+                <Card sx={{ maxWidth: 200, minHeight: 400, bgcolor: 'white', boxShadow: 'none' }} align='center'>
+                    <CardMedia
+                        component="img"
+                        alt="Farida Farsian"
+                        image="/cataniaqiskitfallfest/assets/profilePic/farida.jpg"
+                        sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
+                    />
+                    <CardContent sx={{ textAlign: "center" }}>
+                        <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }}>
+                            Farida Farsian
+                        </Typography>
+                        <Typography variant="caption" sx={{ color: 'text.secondary' }}>
+                            Researcher @ National Institute for Astrophysics (INAF).
+                        </Typography>
+                    </CardContent>
+                    <CardActions sx={{ justifyContent: "center" }}>
+
+                    </CardActions>
+                </Card>
                 {/* <Card sx={{ maxWidth: 200, minHeight: 400, bgcolor: 'white', boxShadow: 'none' }} align='center'>
                     <CardMedia
                         component="img"

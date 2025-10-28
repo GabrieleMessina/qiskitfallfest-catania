@@ -4,6 +4,7 @@ import About from "./components/about/About";
 import Partners from "./components/partners/Partners";
 import Speakers from "./components/speakers/Speakers";
 import Agenda from "./components/schedule/Schedule"
+import SchoolAgenda from "./components/school_schedule/Schedule"
 import Location from "./components/location/Location";
 import './style.css'
 import Footer from "./components/footer/Footer";
@@ -28,6 +29,7 @@ export default function Home() {
       <Partners />
       <Speakers />
       <Agenda/>
+      <SchoolAgenda/>
       <Location />
       <Sponsors />
       <Organizers/>
