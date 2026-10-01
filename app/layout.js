@@ -16,8 +16,8 @@ const geistMono = localFont({
 
 
 export const metadata = {
-  title: "Qiskit Fall Fest 2025 / Catania",
-  description: "Catania Qiskit Fall Fest 2025",
+  title: "Qiskit Fall Fest 2026 / Catania",
+  description: "Catania Qiskit Fall Fest 2026",
   icons: {
     icon: './favicon.ico', 
     shortcut: './favicon-16x16.png', 

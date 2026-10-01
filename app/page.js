@@ -22,7 +22,7 @@ export default function Home() {
           <h1 className="text-3xl md:text-3xl lg:text-5xl 2xl:text-6xl text-[#353A3F] text-center">Second Edition</h1>
           <span className="md:text-lg lg:text-3xl 2xl:text-md text-[#9D5CFD] md:m-3 text-center">Catania joins the 55 Sponsored events worldwide!</span>
           <button className="bg-[#9D5CFD] hover:bg-[#924afc] text-white rounded text-center text-lg md:text-2xl font-bold mt-5 flex justify-center md:w-[60%] p-5">
-            <Link target='blank' href={'https://cataniaqiskitfallfest25.eventbrite.com'}>Join the Fest, get the ticket!</Link>
+            <Link target='blank' href={'https://cataniaqiskitfallfest2026.eventbrite.com'}>Join the Fest, get the ticket!</Link>
           </button>
           <div id='register button' className='border border-[#9D5CFD] hover:bg-[#924afc11] rounded text-center text-lg md:text-2xl font-bold mt-5 flex justify-center md:w-[60%] p-5'>
             <button> 

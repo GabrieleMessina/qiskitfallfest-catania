@@ -89,7 +89,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center md:min-h-[50px] md:mx-10" style={{userSelect: 'none'}}>
         <div className="text-lg md:text-3xl font-semibold">
-          <Link href={'/'}><span className={`${isScrolled ? 'text-black' : 'text-white'}`}>Qiskit Fall Fest 2025 </span></Link>
+          <Link href={'/'}><span className={`${isScrolled ? 'text-black' : 'text-white'}`}>Qiskit Fall Fest 2026 </span></Link>
           <span className="text-[#FF7EB5] mx-2">/</span>
           <span className="text-[#9D5CFD]">Catania</span>
         </div>
@@ -149,7 +149,7 @@ const Navbar = () => {
             <Link href="/faq" onClick={handleLinkClick}>FAQ</Link>
           </li>
           <li className={getLinkClass('#resources')}>
-            <Link target='blank' href="https://drive.google.com/drive/folders/1itnr71b5UM-kfzWkwSFmcWtY5W8BJxhH?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
+            <Link target='blank' href="https://drive.google.com/drive/folders/1TMIZ0ClPDYKH8wuepSZxu6ZzUVuRFEZH?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
           </li>
         </ul>
       </div>
@@ -198,7 +198,7 @@ const Navbar = () => {
             <Link href="/faq">FAQ</Link>
           </li>
           <li className={getLinkClass('#resources')}>
-          <Link target='blank' href="https://drive.google.com/drive/folders/1itnr71b5UM-kfzWkwSFmcWtY5W8BJxhH?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
+          <Link target='blank' href="https://drive.google.com/drive/folders/1TMIZ0ClPDYKH8wuepSZxu6ZzUVuRFEZH?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
           </li>
         </ul>
       )}

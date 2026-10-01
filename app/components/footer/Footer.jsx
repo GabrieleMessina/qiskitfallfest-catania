@@ -26,7 +26,7 @@ const Footer = () => {
           </li>
         </ul>
         <p className="text-center text-white text-sm mt-4">
-          © 2025 Qiskit Fall Fest 2025 / Catania. All rights reserved.
+          © 2026 Qiskit Fall Fest 2026 / Catania. All rights reserved.
         </p>
         <div className='flex justify-center mt-2'>
         <Link target='blank' href={'https://github.com/GabrieleMessina/qiskitfallfest-catania'}>

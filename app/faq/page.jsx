@@ -25,7 +25,7 @@ export default function page() {
                                 How to register?
                             </AccordionSummary>
                             <AccordionDetails>
-                                The event is open to everyone, you can register <Link target='blank' href={'https://cataniaqiskitfallfest25.eventbrite.com'} className='underline font-bold'>here.</Link>
+                                The event is open to everyone, you can register <Link target='blank' href={'https://cataniaqiskitfallfest2026.eventbrite.com'} className='underline font-bold'>here.</Link>
                             </AccordionDetails>
                         </Accordion>
                         <Accordion >

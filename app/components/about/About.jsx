@@ -63,13 +63,13 @@ const About = () => {
 
         <div className='flex justify-center'>
             <div id='register button' className=' bg-[#9D5CFD] hover:bg-[#924afc] text-white rounded text-center text-2xl font-bold mt-5 flex justify-center lg:w-[40%] w-[80%] p-5'>
-                <button> <Link target='blank' href={'https://cataniaqiskitfallfest25.eventbrite.com'}>Register here to partecipate!</Link>
+                <button> <Link target='blank' href={'https://cataniaqiskitfallfest2026.eventbrite.com'}>Register here to partecipate!</Link>
                 </button>
             </div>
         </div>
         <div className='flex justify-center'>
             <div id='register button' className='border border-[#9D5CFD] hover:bg-[#924afc11] rounded text-center text-2xl font-bold mt-5 flex justify-center lg:w-[40%] w-[80%] p-5'>
-                <button> <Link target='blank' href="https://drive.google.com/drive/folders/1itnr71b5UM-kfzWkwSFmcWtY5W8BJxhH?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
+                <button> <Link target='blank' href="https://drive.google.com/drive/folders/1TMIZ0ClPDYKH8wuepSZxu6ZzUVuRFEZH?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
                 </button>
             </div>
         </div>

@@ -13,7 +13,7 @@ const Schedule = () => {
         <table className="min-w-full bg-white rounded-lg">
           <thead className="rounded-lg">
             <tr className="bg-[#9D5CFD] text-white uppercase text-xs md:text-sm leading-normal rounded-lg">
-              <th className="py-2 px-3 w-3/12 text-center">Martedì 18 Nov. 2025<br /><small>Aula 22</small></th>
+              <th className="py-2 px-3 w-3/12 text-center">Mercoledì 18 Nov. 2026<br /><small>Aula 22</small></th>
             </tr>
           </thead>
           <tbody className="text-xs md:text-base font-light">
