@@ -133,8 +133,11 @@ const Navbar = () => {
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>
                 </li>
-                <li className={getLinkClass('./2024')}>
-                  <a href="./2024" onClick={handleLinkClick}>2024 Edition</a>
+                <li className={getLinkClass('/2024')}>
+                  <a href="/2024" onClick={handleLinkClick}>2024 Edition</a>
+                </li>
+                <li className={getLinkClass('/2025')}>
+                  <a href="/2025" onClick={handleLinkClick}>2025 Edition</a>
                 </li>
               </ul>
             )}
@@ -179,8 +182,11 @@ const Navbar = () => {
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>
                 </li>
-                <li className={getLinkClass('./2024')}>
-                  <a href="./2024" onClick={handleLinkClick}>2024 Edition</a>
+                <li className={getLinkClass('/2024')}>
+                  <a href="/2024" onClick={handleLinkClick}>2024 Edition</a>
+                </li>
+                <li className={getLinkClass('/2025')}>
+                  <a href="/2025" onClick={handleLinkClick}>2025 Edition</a>
                 </li>
               </ul>
             )}

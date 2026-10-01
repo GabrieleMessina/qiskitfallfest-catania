@@ -1,0 +1,49 @@
+import Link from 'next/link';
+import React from 'react';
+import { Button } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+
+const Footer = () => {
+  return (
+    <footer className="bg-[#353A3F] py-6">
+      <div className="container mx-auto p-4">
+        <ul className="flex justify-center space-x-1 text-sm text-gray-300">
+          <li>
+            <Link href="/2025/contacts">
+              <span className="hover:text-white">Contacts</span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/2025/credits">
+              <span className="hover:text-white">Credits</span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/2025/terms">
+              <span className="hover:text-white">Terms and Conditions</span>
+            </Link>
+          </li>
+        </ul>
+        <p className="text-center text-white text-sm mt-4">
+          © 2025 Qiskit Fall Fest 2025 / Catania. All rights reserved.
+        </p>
+        <div className='flex justify-center mt-2'>
+        <Link target='blank' href={'https://github.com/GabrieleMessina/qiskitfallfest-catania'}>
+            <Button>
+              <GitHubIcon className="text-[#9D5CFD]" /> 
+            </Button>
+        </Link>
+        <Link target='blank' href={'https://www.instagram.com/cataniaqiskitfallfest/'}>
+          <Button>
+            <InstagramIcon className="text-[#9D5CFD]" />
+          </Button>
+        </Link>
+        </div>
+
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

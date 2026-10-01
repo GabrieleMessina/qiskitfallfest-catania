@@ -133,6 +133,9 @@ const Navbar = () => {
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers">Organizers</a>
                 </li>
+                <li className={getLinkClass('/2025')}>
+                  <a href="/2025" onClick={handleLinkClick}>2025 Edition</a>
+                </li>
               </ul>
             )}
           </li>
@@ -175,6 +178,9 @@ const Navbar = () => {
                 </li>
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers">Organizers</a>
+                </li>
+                <li className={getLinkClass('/2025')}>
+                  <a href="/2025" onClick={handleLinkClick}>2025 Edition</a>
                 </li>
               </ul>
             )}
