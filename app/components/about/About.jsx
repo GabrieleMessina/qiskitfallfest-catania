@@ -12,7 +12,7 @@ const About = () => {
     <div className="flex flex-col justify-center md:m-10 p-4">
       <h1 className="text-6xl font-bold text-center text-[#353A3F]">About</h1>
       <div className="m-3 md:mx-48">
-        <div className='text-center'>The University of Catania is proud to host the <strong>Qiskit Fall Fest</strong> for the second year in a row <br/> this time as one of only <strong>55 Sponsored Events worldwide</strong>!</div>
+        <div className='text-center'>The University of Catania is proud to host the <strong>Qiskit Fall Fest</strong> for the third year in a row <br/> this time as one of <strong>180 Events worldwide</strong>!</div>
         <div className="relative p-6 italic text-gray-600 border-l-4 border-[#FF7EB5] bg-gray-50 my-4">
           The Qiskit Fall Fest is a global celebration of quantum computing, promoted by <b>IBM Quantum</b> and the <b>Qiskit community</b>. Every year, student-led events take place on campuses across the world, with formats ranging from beginner-friendly workshops to advanced hackathons. These events are designed to strengthen local communities, foster collaboration, and grow the next generation of quantum innovators.
         </div>
