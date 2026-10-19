@@ -227,7 +227,7 @@ const Organizers = () => {
                 Damiano Trovato
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                B.Sc. Student in Computer Science @ University of Catania
+                M.Sc. Student in Computer Science @ University of Catania
                 </Typography>
             </CardContent >
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
@@ -293,6 +293,9 @@ const Organizers = () => {
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Stefano Mavilla
                 </Typography>
+                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
+                B.Sc. Student in Computer Science @ University of Catania
+                </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}>
                 <Button
@@ -317,6 +320,9 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Francesco Virgillito
+                </Typography>
+                <Typography variant="caption" sx={{ color: 'text.secondary'}}>
+                B.Sc. Student in Computer Science @ University of Catania
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}>

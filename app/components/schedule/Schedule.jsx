@@ -21,26 +21,26 @@ const Schedule = () => {
           </thead>
           <tbody className="text-xs md:text-base font-light">
             <tr style={{height: '2rem', borderBottom: "1px solid lightgray"}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">14:40 - 15:00</span><br /> <span className="md:ms-3 block">Registrations</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">14:40 - 15:00</span><br /> <span className="md:ms-3 block">Registrazioni</span></td>
               <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}></td>
               <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}></td>
-              <td rowSpan={6} className="text-left hover:bg-[#FF7EB5] hover:text-white"><div style={{transform: "rotate(90deg)"}}><span className="opacity-80">11:00 - 19:00</span><br />Hackathon</div></td>
+              <td rowSpan={7} className="text-left hover:bg-[#FF7EB5] hover:text-white"><div style={{transform: "rotate(90deg)"}}><span className="opacity-80">11:00 - 19:00</span><br />Hackathon</div></td>
             </tr>
             <tr style={{height: '2rem', borderBottom: "1px solid lightgray"}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:00 - 15:15</span><br /> <span className="md:ms-3 block">Institutional Greetings</span></td>
-              <td rowSpan={2} className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:00 - 16:00</span><br /> <span className="md:ms-3 block">A Quantum Algorithm for Chemistry</span></td>
-              <td rowSpan={2} className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:00 - 16:00</span><br /> <span className="md:ms-3 block">IBM Sponsored Talk (TBA)</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:00 - 15:15</span><br /> <span className="md:ms-3 block">Saluti istituzionali</span></td>
+              <td rowSpan={2} className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:00 - 16:00</span><br /> <span className="md:ms-3 block">Chimica quantistica</span></td>
+              <td rowSpan={2} className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:00 - 16:00</span><br /> <span className="md:ms-3 block">Quantum random walk</span></td>
             </tr>
             <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:15 - 16:00</span><br /> <span className="md:ms-3 block">Historical Overview</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:15 - 16:00</span><br /> <span className="md:ms-3 block">Introduzione alla meccanica quantistica</span></td>
             </tr>
             <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
-              <td rowSpan={2} className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:00 - 17:00</span><br /> <span className="md:ms-3 block">Introduction to Quantum Computing</span></td>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:00 - 16:45</span><br /> <span className="md:ms-3 block">Quantum Machine Learning</span></td>
-              <td rowSpan={2} className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:00 - 17:00</span><br /> <span className="md:ms-3 block">Hardware and QRAM</span></td>
+              <td rowSpan={2} className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:00 - 17:00</span><br /> <span className="md:ms-3 block">Laboratorio introduttivo a Qiskit</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:00 - 16:45</span><br /> <span className="md:ms-3 block">La molecola H<sub>2</sub></span></td>
+              <td rowSpan={2} className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:00 - 17:00</span><br /> <span className="md:ms-3 block">Modello di Ising</span></td>
             </tr>
             <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:45 - 17:00</span><br /> <span className="md:ms-3 block">Presentation of the Master in Quantum Technologies</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:45 - 17:00</span><br /> <span className="md:ms-3 block">Le prospettive lavorative del quantum<br /><small>Roberto Lo Nardo - IBM Quantum</small></span></td>
             </tr>
             {/* <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
               <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}} ><span className="opacity-80">16:15 - 17:00</span><br /> <span className="md:ms-3 block">Quantum Basics (G. Piccitto)</span></td>
@@ -53,9 +53,9 @@ const Schedule = () => {
               <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white text-center" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:00 - 17:30</span><br /> <span className="md:ms-3 block">Coffee Break and Networking</span></td>
             </tr>
             <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:30 - 19:00</span><br /> <span className="md:ms-3 block">Workshop 1</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:30 - 19:00</span><br /> <span className="md:ms-3 block">Laboratorio introduttivo a Qiskit</span></td>
               <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:30 - 19:00</span><br /> <span className="md:ms-3 block">Workshop 2</span></td>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:30 - 19:00</span><br /> <span className="md:ms-3 block">Workshop 3</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:30 - 19:00</span><br /> <span className="md:ms-3 block">Applicazioni della Quantum Fourier Transform nell'astrofisica<br /><small>Francesco Cavallaro - INAF</small></span></td>
             </tr>
             {/* <tr style={{height: '4rem'}}>
               <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">18:15 - 19:00</span><br /> <span className="md:ms-3 block">Quantum No-Cloning: How the Hippies saved Physics (S. Faro)</span></td>

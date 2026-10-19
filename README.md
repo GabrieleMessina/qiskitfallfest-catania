@@ -23,3 +23,10 @@ To start the development server, run:
 npm run dev
 ```
 > Note: the root of the web page is `cataniaqiskitfallfest` so, if you server is running at `http://localhost:8080` you need to navigate to `http://localhost:8080/cataniaqiskitfallfest`
+
+
+## Publish
+```bash
+npm run build
+```
+You'll find a new "cataniaqiskitfallfest" directory in the root of the project with your files to deploy.
