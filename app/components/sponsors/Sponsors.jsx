@@ -29,18 +29,11 @@ const Sponsors = () => {
         </div>*/}
       {/* </div> */}
       <div className="flex flex-wrap justify-center mt-5">
-        <div id="nqsti" className="flex flex-col gap-2 w-full sm:w-[45%] md:w-[25%] m-5">
+        <div id="inaf" className="flex flex-col gap-2 w-full sm:w-[45%] md:w-[25%] m-5">
           <img 
             className="h-[100px] sm:h-[130px] md:h-[150px] object-contain mix-blend-multiply"
-            src="/cataniaqiskitfallfest/assets/img/sponsor/nqsti.png"
-            alt="nqsti Logo"
-          />
-        </div>
-        <div id="icsc" className="flex flex-col w-full sm:w-[45%] md:w-[25%] m-5">
-          <img 
-            className="h-[100px] sm:h-[130px] md:h-[150px] object-contain mix-blend-multiply"
-            src="/cataniaqiskitfallfest/assets/img/sponsor/icsc.png"
-            alt="icsc Logo"
+            src="/cataniaqiskitfallfest/assets/img/sponsor/inaf.png"
+            alt="INAF - Istituto Nazionale di Astrofisica"
           />
         </div>
         <div id="pls" className="flex flex-col w-full sm:w-[45%] md:w-[25%] m-5">

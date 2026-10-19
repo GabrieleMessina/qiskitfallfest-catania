@@ -282,6 +282,66 @@ const Organizers = () => {
             </Link>
             </CardActions>
         </Card>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
+            <CardMedia
+                component="img"
+                alt="Stefano Mavilla"
+                image="/cataniaqiskitfallfest/assets/profilePic/stefano_mavilla.jpg"
+                sx={{ objectFit: 'cover', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
+            />
+            <CardContent sx={{textAlign: "center", padding:'5px'}}>
+                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
+                    Stefano Mavilla
+                </Typography>
+            </CardContent>
+            <CardActions sx={{justifyContent: "center", padding:'2px'}}>
+                <Button
+                    component={Link}
+                    href="https://www.linkedin.com/in/stefano-mavilla-747863238"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="small"
+                    aria-label="LinkedIn di Stefano Mavilla"
+                >
+                    <LinkedInIcon className="text-[#9D5CFD]" />
+                </Button>
+            </CardActions>
+        </Card>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
+            <CardMedia
+                component="img"
+                alt="Francesco Virgillito"
+                image="/cataniaqiskitfallfest/assets/profilePic/francesco_virgillito.jpeg"
+                sx={{ objectFit: 'cover', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
+            />
+            <CardContent sx={{textAlign: "center", padding:'5px'}}>
+                <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
+                    Francesco Virgillito
+                </Typography>
+            </CardContent>
+            <CardActions sx={{justifyContent: "center", padding:'2px'}}>
+                <Button
+                    component={Link}
+                    href="https://www.linkedin.com/in/francesco-virgillito-ba6007423"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="small"
+                    aria-label="LinkedIn di Francesco Virgillito"
+                >
+                    <LinkedInIcon className="text-[#9D5CFD]" />
+                </Button>
+                <Button
+                    component={Link}
+                    href="https://www.instagram.com/francescovirgillito04"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="small"
+                    aria-label="Instagram di Francesco Virgillito"
+                >
+                    <InstagramIcon className="text-[#9D5CFD]" />
+                </Button>
+            </CardActions>
+        </Card>
         </div>
     </section>
   )
