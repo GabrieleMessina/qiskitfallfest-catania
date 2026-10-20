@@ -26,7 +26,7 @@ export default function Home() {
           </button>
           <div id='register button' className='border border-[#9D5CFD] hover:bg-[#924afc11] rounded text-center text-lg md:text-2xl font-bold mt-5 flex justify-center md:w-[60%] p-5'>
             <button> 
-              <Link target='blank' href="https://forms.gle/FxfRn3ThSmXtwo1c9">Register for the Hackathon!</Link>
+              <Link target='blank' href="https://forms.gle/YZNJjw83yZxFR6VB7">Register for the Hackathon!</Link>
             </button>
           </div>
         </div>
